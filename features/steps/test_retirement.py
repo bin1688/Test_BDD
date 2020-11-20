@@ -1,6 +1,6 @@
 from pytest_bdd import scenario, given, when, then
 
-from Test_BDD.add import CucumberBasket
+from add import CucumberBasket
 
 
 @scenario('../features/cucumbers.feature', 'Add cucumbers to a basket')
